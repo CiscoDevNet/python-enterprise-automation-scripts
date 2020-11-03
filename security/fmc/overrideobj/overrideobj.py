@@ -74,7 +74,7 @@ def get_obj_id(token,domainid,dev):
 
 
     #ovr_url=f"/api/fmc_config/v1/domain/{domainid}/object/networks/005056BB-0B24-0ed3-0000-893353264061/overrides"
-    #dev_response contiene el Id del Device.
+    #dev_response contains the DevId.
     ##for dev in listdevices:
 
     ovr_url=f"/api/fmc_config/v1/domain/{domainid}/object/{ot}?overrideTargetId={dev}"
