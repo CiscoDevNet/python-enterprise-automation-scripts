@@ -1,3 +1,12 @@
+
+"""
+Author: Mario Uriel Romero Martínez
+Organization:CX PS
+Contact: marioma3@cisco.com
+Description: Python script to get override objects (Networks/Hosts) from Firepower Managament Center
+
+"""
+
 import json
 import requests
 import sys
