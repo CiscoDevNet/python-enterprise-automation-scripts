@@ -155,7 +155,7 @@ def login():
 
 root= Tk()
 root.geometry("500x500")
-root.title("SD-WAN vEdge Validation")
+root.title("FMC Network Object Groups report")
 
 fmcadd=StringVar()
 un=StringVar()
